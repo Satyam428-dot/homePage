@@ -4,9 +4,13 @@ import Home from './pages/Home.jsx';
 
 function App() {
   return (
-    <Navbar />
-    <main>
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Home />
+      </main>
+      < Footer />
+    </>
   );
 }
 
