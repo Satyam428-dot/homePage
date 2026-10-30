@@ -77,3 +77,37 @@ button {
     scroll-behavior: auto !important;
   }
 }
+
+/*Button*/
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  background: rgba(255, 255, 255, 0.8);
+  color: inherit;
+  font-size: 14px;
+  font-weight: 500;
+}
+.btn__dot {
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--yellow);
+  color: var(--blue);
+  font-size: 9px;
+}
+.btn--outline {
+  background: #ffff;
+  border-color: var(--blue);
+  color: var(--ink);
+}
+.hero .btn, .icard--btn .btn {
+  background: transparent;
+  color: #ffff;
+  border-color: rgba(255, 255, 255, 0.7);
+}
