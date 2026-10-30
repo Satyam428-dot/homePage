@@ -1,19 +1,13 @@
-# React + Vite
+# Rental Homepage
+Responsive homepage for Rental Bussiness (car rental, employee transport, hotels), built with **React 19+ Vite**. Styling is done with the tailwind css.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Floating navbar with dropdowns and a mobile hamburger menu
+- Hero with a 4-slide thumbnail selector
+- Auto-scrolling client and hotel-partner logo strips
+- Services and "Why this" card grids
+- Success Stories carousel
+- FAQ accordion
+- Footer with contact details and stats bar
+- Responsive on desktop, tablet and mobile
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
