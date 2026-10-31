@@ -94,3 +94,31 @@ export const services = [
   { title: 'Global Hotel Accommodation', image: accommodation },
   { title: 'Meetings, Incentives, Conferences, Events', image: events },
 ];
+
+export const reasons = [
+  {
+    title: "Reliability",
+    desc: "Business class vehicles with assured uptime nationwide.",
+    image: carRental,
+  },
+  {
+    title: "Verified Chauffeurs",
+    desc: "Verified, trained drivers for every 'Corporate Ready' ride.",
+    image: transportation,
+  },
+  {
+    title: "Real-Time Tracking",
+    desc: "24/7 support & dedicated managers to keep your business moving.",
+    image: carRental,
+  },
+  {
+    title: "No Hidden Charges",
+    desc: "Clear, upfront costs for complete corporate travel transparency.",
+    image: accommodation,
+  },
+  {
+    title: "24x7 Support",
+    desc: "Live tracking, updates, and route optimization for total control.",
+    image: transportation,
+  },
+];
