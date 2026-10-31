@@ -1,5 +1,5 @@
 import hero1 from '../assets/hero1.jpg';
-import hero2 from '../assets/hero2.jpg';
+import hero2 from '../assets/hero2.jpeg';
 import hero3 from '../assets/hero3.jpg';
 import hero4 from '../assets/hero4.jpg';
 
@@ -65,7 +65,7 @@ export const heroSlides = [
         title: 'Global Stays', sub: 'Hotels Wherever Work Takes You', cta: 'Explore Accommodation', image: hero3
     },
     {
-        title: 'Seamless MICE', sub: 'Events Handled End to End', cta: 'Explore MICE', image: hero4
+        title: 'Seamless', sub: 'Events Handled End to End', cta: 'Explore', image: hero4
     }
 ];
 
