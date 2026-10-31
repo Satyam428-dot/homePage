@@ -1,5 +1,9 @@
-//Navlinks
+import hero1 from '../assets/hero1.jpg';
+import hero2 from '../assets/hero2.jpg';
+import hero3 from '../assets/hero3.jpg';
+import hero4 from '../assets/hero4.jpg';
 
+//Navlinks
 export const navLinks = [
     {
         label: "Home",href: "#home"
@@ -49,3 +53,19 @@ export const footer = {
   ],
   social: ['Facebook', 'Instagram', 'LinkedIn', 'X', 'YouTube'],
 };
+
+export const heroSlides = [
+    {
+        title: 'Executive Rides', sub: 'For smarter workDay',cta: 'Explore the luxury', image: hero1
+    },
+    {
+        title: 'Transportation', sub: 'Safe Commutes, Every Shift', cta: 'Explore Transportation', image: hero2
+    },
+    {
+        title: 'Global Stays', sub: 'Hotels Wherever Work Takes You', cta: 'Explore Accommodation', image: hero3
+    },
+    {
+        title: 'Seamless MICE', sub: 'Events Handled End to End', cta: 'Explore MICE', image: hero4
+    }
+];
+
