@@ -132,4 +132,27 @@ export const trust = {
   image: carRental,
 };
 
+export const stories = [
+  {
+  brand: "Flipkart",
+  text: "Working with Rental Business has been a seamless experience. Their reliable transportation services, professional team, and well-organized travel arrangements make business trips comfortable and hassle-free. We truly appreciate their commitment to quality and timely service.",
+  name: "Corporate Travel Manager",
+  role: "Flipkart",
+  },
+  {
+  brand: "Zee",
+  text: "Rental Business has consistently delivered excellent transportation and travel management services. Their professional approach, reliable support, and well-coordinated arrangements have made our corporate travel experience smooth, comfortable, and efficient.",
+  name: "Corporate Administration Manager",
+  role: "Zee Entertainment",
+  },
+  {
+  brand: "HDFC ERGO",
+  text: "Rental Business has provided exceptional corporate transportation and travel management services. Their commitment to punctuality, passenger comfort, and professional service has made our employee travel arrangements smooth, reliable, and hassle-free.",
+  name: "Corporate Travel Manager",
+  role: "HDFC ERGO",
+  },
+];
+
+export const storyLogos = ["Flipkart","TATA MOTORS","Zee","Union Mutual Fund","HDFC ERGO","Investec"];
+
 
