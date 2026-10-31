@@ -112,6 +112,18 @@ button {
   border-color: rgba(255, 255, 255, 0.7);
 }
 
+/* Headings */
+.heading { 
+  text-align: center; 
+  font-size: clamp(24px, 3vw, 32px); 
+  font-weight: 600; 
+  color: var(--blue); 
+  margin-bottom: 28px; 
+}
+.heading__accent { 
+  color: var(--yellow); 
+}
+
 /*NavBar*/
 .nav-wrap { 
   position: absolute; 
@@ -429,3 +441,73 @@ button {
   font-weight: 700; 
 }
 @keyframes scroll { to { transform: translateX(-50%); } }
+
+
+/* Cards */
+.grid { 
+  display: grid; 
+  gap: 16px; 
+}
+.grid--4 { 
+  grid-template-columns: 
+  repeat(4, 1fr); 
+}
+.grid--3 { 
+  grid-template-columns: repeat(3, 1fr); 
+}
+.icard { 
+  position: relative; 
+  border-radius: 14px; 
+  overflow: hidden; 
+  color: #fff; 
+  background-size: cover; 
+  background-position: center; 
+  display: flex; 
+  align-items: flex-end; 
+  min-height: 130px; 
+}
+.icard::after { 
+  content: ''; 
+  position: absolute; 
+  inset: 0; 
+  background: linear-gradient(180deg, rgba(0,0,0,0) 35%, rgba(0,0,0,.85)); 
+}
+.icard__body { 
+  position: relative; 
+  z-index: 1; 
+  padding: 16px; 
+  width: 100%; 
+}
+.icard h3 { 
+  font-size: 16px; 
+  font-weight: 600; 
+}
+.icard p { font-size: 12px; margin-top: 4px; opacity: .92; }
+.icard--tall { min-height: 250px; }
+.icard--wide { min-height: 125px; }
+.icard--center .icard__body { text-align: center; }
+.icard--blue { 
+  min-height: 250px; 
+  background: linear-gradient(160deg, #1a4fc4, #0a3d9c); 
+  align-items: center; 
+}
+.icard--blue::after { display: none; }
+.icard__body--center { 
+  text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  gap: 12px; 
+  padding: 22px; 
+}
+.icard--blue p { font-size: 11px; }
+@media (max-width: 960px) { .grid--4 { grid-template-columns: repeat(2, 1fr); } .grid--3 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .grid--4, .grid--3 { grid-template-columns: 1fr; } .icard--tall, .icard--blue { min-height: 210px; } }
+
+/* Logo */
+.logo { display: inline-flex; flex-direction: column; line-height: 1; }
+.logo__name { font-size: 24px; font-weight: 700; color: var(--blue); letter-spacing: -.5px; }
+.logo__tag { font-size: 8px; color: var(--yellow); font-weight: 600; }
+.logo--lg { align-items: center; }
+.logo--lg .logo__name { font-size: 56px; }
+.logo--lg .logo__tag { font-size: 18px; letter-spacing: 1px; margin-top: 4px; }

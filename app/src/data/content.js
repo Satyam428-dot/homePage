@@ -9,6 +9,11 @@ import marico from '../assets/client3.png';
 import godrej from '../assets/client4.jpg';
 import cipla from '../assets/client5.png';
 
+import carRental from '../assets/hero1.jpg';
+import transportation from '../assets/hero2.jpeg';
+import accommodation from '../assets/hero3.jpg';
+import events from '../assets/hero4.jpg';
+
 //Navlinks
 export const navLinks = [
     {
@@ -81,4 +86,11 @@ export const clients = [
   { name: 'Marico', logo: marico },
   { name: 'Godrej', logo: godrej },
   { name: 'Cipla', logo: cipla },
+];
+
+export const services = [
+  { title: 'Car Rentals', image: carRental },
+  { title: 'Transportation Service', desc: 'Specialized fleet management solutions for safe, reliable, and comfortable daily commute of your workplace.', featured: true, image: transportation },
+  { title: 'Global Hotel Accommodation', image: accommodation },
+  { title: 'Meetings, Incentives, Conferences, Events', image: events },
 ];
