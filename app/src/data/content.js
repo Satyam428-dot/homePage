@@ -14,6 +14,13 @@ import transportation from '../assets/hero2.jpeg';
 import accommodation from '../assets/hero3.jpg';
 import events from '../assets/hero4.jpg';
 
+import stRegis from "../assets/part1.jpg";
+import jwMarriott from "../assets/part2.jpg";
+import hampton from "../assets/part3.png";
+import canopy from "../assets/part4.avif";
+import raffles from "../assets/part5.png";
+import fairmont from "../assets/part6.png";
+
 //Navlinks
 export const navLinks = [
     {
@@ -90,7 +97,7 @@ export const clients = [
 
 export const services = [
   { title: 'Car Rentals', image: carRental },
-  { title: 'Transportation Service', desc: 'Specialized fleet management solutions for safe, reliable, and comfortable daily commute of your workplace.', featured: true, image: transportation },
+  { title: 'Transportation Service', desc: 'Specialized fleet management solutions for safe, reliable, and comfortable daily commute of your workplace.', image: transportation },
   { title: 'Global Hotel Accommodation', image: accommodation },
   { title: 'Meetings, Incentives, Conferences, Events', image: events },
 ];
@@ -155,4 +162,62 @@ export const stories = [
 
 export const storyLogos = ["Flipkart","TATA MOTORS","Zee","Union Mutual Fund","HDFC ERGO","Investec"];
 
+export const partners = [
+  { name: "ST. REGIS", logo: stRegis },
+  { name: "JW MARRIOTT", logo: jwMarriott },
+  { name: "Hampton", logo: hampton },
+  { name: "canopy", logo: canopy },
+  { name: "RAFFLES", logo: raffles },
+  { name: "Fairmont", logo: fairmont },
+];
 
+export const faqs = [
+  {
+    q: 'What types of car rental services does Rental Business offer?',
+    a: 'We provide corporate car rentals, employee transportation, airport transfers, outstation travel, and customized vehicle rental solutions for businesses.',
+  },
+  {
+    q: 'Is employee transportation available 24/7?',
+    a: 'Yes, our employee transportation services operate round-the-clock to support day shifts, night shifts, and flexible working hours. Door-to-door transportation and female escorts can also be arranged based on client requirements.',
+  },
+  {
+    q: 'How can I book a corporate rental vehicle?',
+    a: 'You can contact our team through the website or reach out to our support team with your travel dates, pickup location, destination, and vehicle requirements.',
+  },
+  {
+    q: 'How much advance notice is required for a booking?',
+    a: 'Local bookings may be arranged with a few hours’ notice, subject to vehicle availability. For airport transfers, outstation trips, and multiple-vehicle requirements, advance booking is recommended.',
+  },
+  {
+    q: 'Can I modify or cancel my car rental booking?',
+    a: 'Yes, booking modifications and cancellations are supported according to the agreed booking terms. Contact our team or your dedicated account manager for assistance.',
+  },
+  {
+    q: 'What is included in the corporate car rental price?',
+    a: 'Rental pricing depends on the vehicle type, duration, distance, and service requirements. Your quotation clearly mentions included services and any additional charges such as tolls, parking, or extra kilometres.',
+  },
+  {
+    q: 'Are chauffeurs trained and verified?',
+    a: 'We focus on providing professional, trained, and verified chauffeurs to support safe, comfortable, and reliable corporate travel.',
+  },
+  {
+    q: 'What happens if a vehicle breaks down during the journey?',
+    a: 'Our support team assists in coordinating a replacement vehicle or alternative travel arrangements to minimize disruption to your journey.',
+  },
+  {
+    q: 'Does Rental Business provide hotel accommodation services?',
+    a: 'Yes, we support corporate hotel accommodation, meetings, incentives, conferences, and events, helping businesses coordinate their travel and event requirements.',
+  },
+  {
+    q: 'Can Rental Business manage transportation for large corporate events?',
+    a: 'Yes, we can coordinate transportation requirements for corporate meetings, conferences, events, and group travel based on the number of passengers and event schedule.',
+  },
+  {
+    q: 'Do you provide both corporate and leisure travel services?',
+    a: 'Our primary focus is corporate travel, but we also support leisure trips, employee outings, and incentive travel requirements.',
+  },
+  {
+    q: 'How can my company get a customized rental quotation?',
+    a: 'Share your company’s travel requirements, including locations, vehicle types, number of employees, and travel frequency. Our team can help prepare a customized quotation.',
+  },
+];
