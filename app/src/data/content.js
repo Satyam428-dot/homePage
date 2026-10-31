@@ -122,3 +122,14 @@ export const reasons = [
     image: transportation,
   },
 ];
+
+export const trust = {
+  title: ['Your Trusted Partner,', 'in Corporate Travel Solutions'],
+  points: [
+    'From everyday employee commutes to important business journeys, Rental Business delivers reliable, comfortable, and seamless travel solutions.',
+    'Over 2,00,000 car-booking transactions handled annually - reflecting the scale and trust we’ve earned across clients.',
+  ],
+  image: carRental,
+};
+
+
