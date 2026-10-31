@@ -3,6 +3,12 @@ import hero2 from '../assets/hero2.jpeg';
 import hero3 from '../assets/hero3.jpg';
 import hero4 from '../assets/hero4.jpg';
 
+import eveready from '../assets/client1.jpg';
+import crisil from '../assets/client2.jpg';
+import marico from '../assets/client3.png';
+import godrej from '../assets/client4.jpg';
+import cipla from '../assets/client5.png';
+
 //Navlinks
 export const navLinks = [
     {
@@ -69,3 +75,10 @@ export const heroSlides = [
     }
 ];
 
+export const clients = [
+  { name: 'Eveready', logo: eveready },
+  { name: 'CRISIL', logo: crisil },
+  { name: 'Marico', logo: marico },
+  { name: 'Godrej', logo: godrej },
+  { name: 'Cipla', logo: cipla },
+];
