@@ -387,7 +387,7 @@ button {
 }
 @media (max-width: 640px) { .hero__thumbs { gap: 18px; bottom: 80px; } .hero__scroll { bottom: 14px; } }
 
-```css
+
 /* Marquee */
 .strip {
   background: #fff;
